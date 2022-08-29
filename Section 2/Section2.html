@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<style>
+			#left {
+				background: lightblue;
+				width: 200px;
+				height: 200px;
+				float: left;
+			}
+			#right {
+				background: lightgreen;
+				width: 200px;
+				height: 200px;
+				float: left;
+			}
+			#bottom {
+				clear: both;
+				width: 402px;
+			}
+			#meme1 {
+				width: 400px;
+				height: 400px;
+			}
+			.around {
+				border: 1px solid black;
+			}
+		</style>
+		<script> 
+		function createAlert() {
+			alert("Hello World");
+		}
+		</script>
+	</head>
+	<body>
+		<div id=left class=around>
+			<h1>This is a heading</h1>
+			<a href=http://google.com onclick=createAlert();return(false);>Hello</a>
+		</div>
+		<div id=right class=around>
+			<p>This is a paragraph</p>
+		</div>
+		<div id=bottom class=around>
+			bottom
+			<img id=meme1 src=https://pbs.twimg.com/media/FU1C3uxXEAAypqi.jpg>
+		</div>
+			
+	</body>
+</html>

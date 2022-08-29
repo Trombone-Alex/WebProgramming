@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/css/foundation.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+        <style>
+        	.cell {
+        		border:  1px solid black;
+        	}
+
+        	#sidebar {
+        		padding: 10px;
+        	}
+
+        	#body {
+        		padding:  10px;
+        	}
+
+        	.nav {
+        		margin: 10px;
+        	}
+
+        	#header {
+        		background: seagreen;
+        	}
+
+        	#entirebody{
+        		margin: 50px;
+        	}
+        </style>
+        <script type="text/javascript">
+        	
+        	$( document ).ready(function() {
+        		
+        		$("#alert").on("click", callAlert);
+        		$("#change").on("click", changeBody);
+
+        		function callAlert(){
+        			alert("Hello");
+        		}
+
+        		function changeBody(){
+        			$("#body").html("New Text");
+        		}
+        	});
+        </script>
+	</head>
+	<body>
+		<div id="entirebody">
+			<div class="grid-x">
+				<div id=header class="cell small-12 medium-12 large-12 text-right">
+					<button id="alert" class="button nav">Hello</button>
+					<button id="change" class="button nav">Change Info</button>
+				</div>
+			</div>
+			<div class="grid-x">
+				<div id=sidebar class="cell small-12 medium-4 large-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+				<div id=body class="cell small-12 medium-8 large-8">Body</div>
+			</div>
+		</div>
+	</body>
+</html>
