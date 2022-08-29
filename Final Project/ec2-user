@@ -1,0 +1,76 @@
+From MAILER-DAEMON@ip-172-31-94-143.ec2.internal  Thu Jul 21 06:00:21 2022
+Return-Path: <MAILER-DAEMON@ip-172-31-94-143.ec2.internal>
+Received: from ip-172-31-94-143.ec2.internal (localhost [127.0.0.1])
+	by ip-172-31-94-143.ec2.internal (8.14.7/8.14.7) with ESMTP id 26L60LLW012540
+	for <ec2-user@ip-172-31-94-143.ec2.internal>; Thu, 21 Jul 2022 06:00:21 GMT
+Received: from localhost (localhost)
+	by ip-172-31-94-143.ec2.internal (8.14.7/8.14.7/Submit) id 26L60L72012539;
+	Thu, 21 Jul 2022 06:00:21 GMT
+Date: Thu, 21 Jul 2022 06:00:21 GMT
+From: Mail Delivery Subsystem <MAILER-DAEMON@ip-172-31-94-143.ec2.internal>
+Message-Id: <202207210600.26L60L72012539@ip-172-31-94-143.ec2.internal>
+To: ec2-user@ip-172-31-94-143.ec2.internal
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="26L60L72012539.1658383221/ip-172-31-94-143.ec2.internal"
+Subject: Returned mail: see transcript for details
+Auto-Submitted: auto-generated (failure)
+
+This is a MIME-encapsulated message
+
+--26L60L72012539.1658383221/ip-172-31-94-143.ec2.internal
+
+The original message was received at Thu, 21 Jul 2022 06:00:21 GMT
+from root@localhost
+
+   ----- The following addresses had permanent fatal errors -----
+Subject
+    (reason: 550 5.1.1 <Subject@ip-172-31-94-143.ec2.internal>... User unknown)
+    (expanded from: Subject)
+Test
+    (reason: 550 5.1.1 <Test@ip-172-31-94-143.ec2.internal>... User unknown)
+    (expanded from: Test)
+
+   ----- Transcript of session follows -----
+... while talking to [127.0.0.1]:
+>>> DATA
+<<< 550 5.1.1 <Test@ip-172-31-94-143.ec2.internal>... User unknown
+550 5.1.1 Test... User unknown
+<<< 550 5.1.1 <Subject@ip-172-31-94-143.ec2.internal>... User unknown
+550 5.1.1 Subject... User unknown
+
+--26L60L72012539.1658383221/ip-172-31-94-143.ec2.internal
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; ip-172-31-94-143.ec2.internal
+Arrival-Date: Thu, 21 Jul 2022 06:00:21 GMT
+
+Final-Recipient: RFC822; Subject@ip-172-31-94-143.ec2.internal
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; [127.0.0.1]
+Diagnostic-Code: SMTP; 550 5.1.1 <Subject@ip-172-31-94-143.ec2.internal>... User unknown
+Last-Attempt-Date: Thu, 21 Jul 2022 06:00:21 GMT
+
+Final-Recipient: RFC822; Test@ip-172-31-94-143.ec2.internal
+Action: failed
+Status: 5.1.1
+Remote-MTA: DNS; [127.0.0.1]
+Diagnostic-Code: SMTP; 550 5.1.1 <Test@ip-172-31-94-143.ec2.internal>... User unknown
+Last-Attempt-Date: Thu, 21 Jul 2022 06:00:21 GMT
+
+--26L60L72012539.1658383221/ip-172-31-94-143.ec2.internal
+Content-Type: message/rfc822
+
+Return-Path: <ec2-user>
+Received: (from root@localhost)
+	by ip-172-31-94-143.ec2.internal (8.14.7/8.14.7/Submit) id 26L60L71012539;
+	Thu, 21 Jul 2022 06:00:21 GMT
+Date: Thu, 21 Jul 2022 06:00:21 GMT
+From: EC2 Default User <ec2-user>
+Message-Id: <202207210600.26L60L71012539@ip-172-31-94-143.ec2.internal>
+
+This is test mail body
+
+--26L60L72012539.1658383221/ip-172-31-94-143.ec2.internal--
+

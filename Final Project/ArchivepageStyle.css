@@ -1,0 +1,56 @@
+#headimage {
+	width: 100%;
+	height: 200px;
+	border:  2px solid lightgoldenrodyellow;
+}
+
+#pastvids {
+	column-count: 2;
+}
+
+#vidcontainer {
+	color: black;
+	padding-top: 10px;
+	text-align: center;
+	font-family: Verdana, Arial, sans-serif;
+	border-right: 2px solid turquoise;	
+	border-bottom: 2px solid turquoise;
+	padding-bottom: 5px;
+}
+
+#spotcontainer {
+	border-left: 2px solid turquoise;
+	border-bottom: 2px solid turquoise;	
+	padding-bottom: 5px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#footer {
+	color: steelblue;
+	text-align: center;
+	font-size: 90%;
+	padding-top: 10px;
+}
+
+#link {
+	border:  2px solid black;
+	background-color: white;
+	border-radius: 25px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+body {
+	background-color: oldlace;
+	margin: 5px;
+}
+
+li:hover {
+	background: silver;
+}
+
+.top-bar {
+	background-color: mediumaquamarine;
+}
+
